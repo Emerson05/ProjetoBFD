@@ -4,4 +4,10 @@ nota2 = float(input("Digite a Segunda Nota: "))
 
 media = (nota1+ nota2) / 2
 
-print(f"Aluno:{aluno}\n Média: {media}")
+if media>= 7:
+    print(f"Aluno: {aluno} Aprovado!\nMédia{media}")
+elif media >= 4:
+    print(f"Aluno: {aluno} Recuperação!\nMédia{media}")
+else:
+    print(f'Aluno: {aluno} Reprovado!\nMédia{media}')
+
